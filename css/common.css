@@ -498,6 +498,20 @@ a {
 
 /* Portfolio */
 
+.container.header {
+	position: relative;
+}
+
+.container.header::after {
+	content: "";
+	position: absolute;
+	left: 0;
+
+	width: 100%;
+
+	border-bottom: 1px solid #ececec;
+}
+
 .list.button {
 	display: flex;
 	justify-content: center;
